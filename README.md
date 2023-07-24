@@ -1,3 +1,3 @@
 # Demo
 
-First demo of GitHub
+First demo of GitHub!
