@@ -1,0 +1,115 @@
+.webmaster-menu {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+ul.menu {
+    display: flex;
+    gap: 20px;
+}
+
+ul.menu li{
+    border-bottom: none;
+    display: block;
+}
+
+ul.menu li a.active {
+    color: #0a0a23;
+    font-weight: 800;
+}
+
+.webmaster-menu ul.menu > li:hover > a {
+    background-color: transparent;
+    color: #0a0a23;
+}
+
+#main-content {
+    padding-top: 50px;
+}
+
+div.view-content, .view-content1 ul {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+div.view-content article {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.view-content1 ul li a:first-of-type{
+    font-size: 1.5em;
+    color: black;
+    text-transform: capitalize;
+}
+
+.view-content1 ul li {
+    padding: 15px;
+}
+
+div.view-content article h2 a {
+    font-size: 1.4em;
+}
+
+.view-content1 ul strong, .field-l {
+    color: black
+}
+
+.view-content1 ul strong {
+    margin: 30px 0;
+}
+
+.sub-heading {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.views-field-field-m-owner, .views-field-field-some-stuff {
+    background-color: transparent;
+    color: #f8ac00;
+}
+
+.view-content1 img {
+    aspect-ratio: 1/1;
+    width: 130px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.sharethis-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.view-content1 p, .view-content1 span {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 15px 0;
+    text-transform: lowercase;
+}
+
+.view-content1 p::first-letter, .view-content1 span::first-letter {
+    text-transform: capitalize;
+} 
