@@ -113,3 +113,104 @@ div.view-content article h2 a {
 .view-content1 p::first-letter, .view-content1 span::first-letter {
     text-transform: capitalize;
 } 
+
+
+.machineries_buttons li {
+    color: black;
+    background-color: orange;
+    padding: 9px;
+    border-radius: 5px;
+    list-style-type: none;
+  }
+  .machineries_buttons li a {
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+  }
+  
+  .machineries_buttons li:hover {
+    background-color: rgba(61, 59, 59, 0.825);
+  }
+  
+  .machineries_buttons li:hover a {
+    color: white;
+  }
+  
+  .filter-buttons {
+    padding: 8px;
+  }
+  
+  .filter-labels {
+    color: black;
+  }
+  
+  .filter {
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left:25px ;
+    width: 85%;
+  }
+  .option-header {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .option-subheader {
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .machineries_buttons {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .footer-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(52, 50, 50);
+    padding: 10px 30px 0px 30px;
+    width: 100%;
+    color: white;
+    gap: 50px;
+    justify-content: space-between;
+    font-size: medium;
+  }
+  
+  .footer-details a {
+    font-size: medium;
+    color: rgb(214, 190, 237);
+  }
+  .footer-details p {
+    font-size: medium;
+  }
+  footer h2 {
+    font-size: larger;
+  }
+  
+  .footer-details a:hover {
+    color: whitesmoke;
+  }
+  .footer-details td {
+    border: 2px solid white;
+  }
+  
+  .feedback-column {
+    width: 55%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .address-column {
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+  }
